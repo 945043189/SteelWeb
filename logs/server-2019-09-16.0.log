@@ -1,0 +1,872 @@
+2019-09-16 15:51:04:289 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 13600 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 15:51:04:313 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 15:51:06:445 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 15:51:06:450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 15:51:06:493 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces. 
+2019-09-16 15:51:07:509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ace086] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 15:51:09:083 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 15:51:09:121 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 15:51:09:167 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 15:51:09:168 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 15:51:09:668 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 15:51:09:671 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4989 ms 
+2019-09-16 15:51:11:177 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 15:51:12:722 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 15:51:12:822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 15:51:12:836 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 10.275 seconds (JVM running for 12.307) 
+2019-09-16 15:51:56:440 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 15:51:56:442 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 15:51:56:520 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 77 ms 
+2019-09-16 15:51:56:744 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService getAll 23 - 以下查询所有城市信息。。。 
+2019-09-16 15:51:56:927 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 110 - HikariPool-1 - Starting... 
+2019-09-16 15:51:58:617 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 123 - HikariPool-1 - Start completed. 
+2019-09-16 15:51:58:844 [http-nio-8080-exec-1] INFO  c.s.gavin.controller.CityController getUserList 31 - 查询城市信息，共有3个城市 
+2019-09-16 15:55:02:968 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 14928 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 15:55:02:975 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 15:55:05:695 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 15:55:05:702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 15:55:05:785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces. 
+2019-09-16 15:55:07:265 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40c45c3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 15:55:08:796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 15:55:08:846 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 15:55:08:946 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 15:55:08:947 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 15:55:09:776 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 15:55:09:778 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 6611 ms 
+2019-09-16 15:55:12:261 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 15:55:13:832 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 15:55:13:915 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 15:55:13:924 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 12.822 seconds (JVM running for 15.061) 
+2019-09-16 15:55:27:770 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 15:55:27:772 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 15:55:27:807 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 33 ms 
+2019-09-16 15:55:27:901 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService getAll 23 - 以下查询所有城市信息。。。 
+2019-09-16 15:55:27:967 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 110 - HikariPool-1 - Starting... 
+2019-09-16 15:55:29:250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 123 - HikariPool-1 - Start completed. 
+2019-09-16 15:55:29:452 [http-nio-8080-exec-1] INFO  c.s.gavin.controller.CityController getUserList 31 - 查询城市信息，共有3个城市 
+2019-09-16 16:33:49:822 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 13456 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 16:33:49:835 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 16:33:52:187 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 16:33:52:193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 16:33:52:318 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces. 
+2019-09-16 16:33:53:277 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d269ee8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 16:33:54:427 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 16:33:54:494 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:33:54:572 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 16:33:54:575 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 16:33:55:107 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 16:33:55:109 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5122 ms 
+2019-09-16 16:33:56:461 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 16:33:57:796 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:33:57:874 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 16:33:57:883 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.377 seconds (JVM running for 10.878) 
+2019-09-16 16:34:13:894 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 16:34:13:895 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 16:34:13:914 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 18 ms 
+2019-09-16 16:34:13:983 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService getAll 23 - 以下查询所有城市信息。。。 
+2019-09-16 16:34:14:045 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 110 - HikariPool-1 - Starting... 
+2019-09-16 16:34:15:353 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 123 - HikariPool-1 - Start completed. 
+2019-09-16 16:34:15:569 [http-nio-8080-exec-1] INFO  c.s.gavin.controller.CityController getUserList 30 - 查询城市信息，共有3个城市 
+2019-09-16 16:53:49:990 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 8460 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 16:53:49:995 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 16:53:52:310 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 16:53:52:316 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 16:53:52:380 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces. 
+2019-09-16 16:53:53:330 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62dd0e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 16:53:54:508 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 16:53:54:553 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:53:54:598 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 16:53:54:600 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 16:53:55:179 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 16:53:55:181 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5022 ms 
+2019-09-16 16:53:56:566 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 16:53:58:074 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:53:58:124 [main] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Failed to start component [Connector[HTTP/1.1-8080]] 
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.steelgt.gavin.SteelgtWebApplication.main(SteelgtWebApplication.java:17)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-16 16:53:58:145 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Pausing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:53:58:156 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Stopping service [Tomcat] 
+2019-09-16 16:53:58:173 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2019-09-16 16:53:58:176 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Stopping ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:53:58:180 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Destroying ProtocolHandler ["http-nio-8080"] 
+2019-09-16 16:53:58:192 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener logMessage 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-09-16 16:53:58:199 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter report 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ 
+2019-09-16 16:53:58:269 [main] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:01:20:836 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 3740 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:01:20:844 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:01:23:493 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:01:23:497 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:01:23:559 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces. 
+2019-09-16 17:01:24:444 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4c7d08f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:01:25:664 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:01:25:701 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:01:25:732 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:01:25:733 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:01:26:190 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:01:26:191 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5155 ms 
+2019-09-16 17:01:27:375 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:01:28:658 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:01:28:808 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:01:28:824 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.589 seconds (JVM running for 11.333) 
+2019-09-16 17:04:13:276 [http-nio-8080-exec-10] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:04:13:277 [http-nio-8080-exec-10] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:04:13:295 [http-nio-8080-exec-10] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 17 ms 
+2019-09-16 17:12:07:790 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 11320 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:12:07:798 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:12:10:966 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:12:10:970 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:12:11:019 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces. 
+2019-09-16 17:12:12:235 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9686d17c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:12:13:722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:12:13:768 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:12:13:818 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:12:13:819 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:12:14:692 [main] WARN  org.apache.juli.logging.DirectJDKLog log 175 - Failed to scan [file:/C:/Users/zaj/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar] from classloader hierarchy 
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:212)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.steelgt.gavin.SteelgtWebApplication.main(SteelgtWebApplication.java:17)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+	... 46 common frames omitted
+Caused by: java.util.zip.ZipException: invalid CEN header (bad signature)
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1527)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1487)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1266)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1229)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:341)
+	... 50 common frames omitted
+2019-09-16 17:12:14:745 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-16 17:12:14:788 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:12:14:789 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 6795 ms 
+2019-09-16 17:12:16:231 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:12:18:551 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:12:18:688 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:12:18:707 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 13.249 seconds (JVM running for 15.237) 
+2019-09-16 17:15:52:075 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 11552 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:15:52:081 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:15:54:379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:15:54:389 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:15:54:607 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces. 
+2019-09-16 17:15:55:783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ea4e3ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:15:57:521 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:15:57:562 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:15:57:613 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:15:57:616 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:15:58:301 [main] WARN  org.apache.juli.logging.DirectJDKLog log 175 - Failed to scan [file:/C:/Users/zaj/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar] from classloader hierarchy 
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:212)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.steelgt.gavin.SteelgtWebApplication.main(SteelgtWebApplication.java:17)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+	... 46 common frames omitted
+Caused by: java.util.zip.ZipException: invalid CEN header (bad signature)
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1527)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1487)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1266)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1229)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:341)
+	... 50 common frames omitted
+2019-09-16 17:15:58:384 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-16 17:15:58:422 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:15:58:423 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 6177 ms 
+2019-09-16 17:15:59:928 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:16:01:510 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:16:01:603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:16:01:610 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 11.194 seconds (JVM running for 13.136) 
+2019-09-16 17:16:50:242 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 10228 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:16:50:248 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:16:52:394 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:16:52:400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:16:52:451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces. 
+2019-09-16 17:16:53:495 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b2ad92b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:16:54:690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:16:54:721 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:16:54:758 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:16:54:761 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:16:55:215 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:16:55:218 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4774 ms 
+2019-09-16 17:16:56:707 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:16:58:111 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:16:58:186 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:16:58:196 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.351 seconds (JVM running for 10.83) 
+2019-09-16 17:17:04:318 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:17:04:321 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:17:04:342 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 20 ms 
+2019-09-16 17:38:07:511 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 12052 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:38:07:517 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:38:09:422 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:38:09:431 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:38:09:478 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces. 
+2019-09-16 17:38:10:397 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe015d1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:38:11:521 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:38:11:564 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:38:11:603 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:38:11:604 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:38:12:129 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:38:12:130 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4476 ms 
+2019-09-16 17:38:13:374 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:38:13:625 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration checkTemplateLocationExists 106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+2019-09-16 17:38:14:577 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:38:14:637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:38:14:646 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 8.536 seconds (JVM running for 9.97) 
+2019-09-16 17:38:43:911 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:38:43:913 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:38:43:929 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 16 ms 
+2019-09-16 17:38:44:339 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "picUpload": Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:38:44:349 [http-nio-8080-exec-1] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:42:42:090 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 5408 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:42:42:095 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:42:44:045 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:42:44:051 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:42:44:115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces. 
+2019-09-16 17:42:45:061 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98b79c98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:42:46:167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:42:46:201 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:42:46:241 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:42:46:242 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:42:46:721 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:42:46:722 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4485 ms 
+2019-09-16 17:42:47:928 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:42:48:221 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration checkTemplateLocationExists 106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+2019-09-16 17:42:49:327 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:42:49:418 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:42:49:432 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 8.726 seconds (JVM running for 10.181) 
+2019-09-16 17:43:01:427 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:43:01:428 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:43:01:446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 17 ms 
+2019-09-16 17:43:01:893 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "picUpload": Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:43:01:900 [http-nio-8080-exec-1] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:45:04:088 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 1704 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:45:04:102 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:45:06:737 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:45:06:744 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:45:06:815 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces. 
+2019-09-16 17:45:07:661 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40c45c3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:45:08:737 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:45:08:769 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:45:08:821 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:45:08:823 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:45:09:420 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:45:09:434 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4990 ms 
+2019-09-16 17:45:10:916 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:45:12:177 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:45:12:257 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:45:12:268 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.722 seconds (JVM running for 11.792) 
+2019-09-16 17:45:16:217 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:45:16:219 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:45:16:240 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 20 ms 
+2019-09-16 17:45:16:324 [http-nio-8080-exec-1] WARN  o.s.w.s.r.ResourceHttpRequestHandler isInvalidPath 634 - Path with "WEB-INF" or "META-INF": [WEB-INF/jsp/picUpload.jsp] 
+2019-09-16 17:50:31:570 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 11804 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:50:31:575 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:50:33:934 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:50:33:941 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:50:33:996 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces. 
+2019-09-16 17:50:34:941 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e39875a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:50:36:007 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:50:36:040 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:50:36:085 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:50:36:086 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:50:36:603 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:50:36:604 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4888 ms 
+2019-09-16 17:50:37:798 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:50:38:045 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration checkTemplateLocationExists 106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+2019-09-16 17:50:39:127 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:50:39:193 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:50:39:204 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 8.961 seconds (JVM running for 10.454) 
+2019-09-16 17:51:07:263 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:51:07:264 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:51:07:284 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 19 ms 
+2019-09-16 17:51:07:655 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "picUpload": Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:51:07:661 [http-nio-8080-exec-1] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:57:49:751 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 8264 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-16 17:57:49:755 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-16 17:57:51:603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-16 17:57:51:608 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-16 17:57:51:648 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces. 
+2019-09-16 17:57:52:636 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3771418e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-16 17:57:53:748 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-16 17:57:53:787 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:57:53:830 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-16 17:57:53:834 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-16 17:57:54:420 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-16 17:57:54:422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4530 ms 
+2019-09-16 17:57:55:761 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-16 17:57:56:031 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration checkTemplateLocationExists 106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration) 
+2019-09-16 17:57:57:434 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-16 17:57:57:534 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-16 17:57:57:551 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.072 seconds (JVM running for 10.474) 
+2019-09-16 17:58:05:075 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-16 17:58:05:077 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-16 17:58:05:097 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 18 ms 
+2019-09-16 17:58:05:467 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "picUpload": Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-16 17:58:05:475 [http-nio-8080-exec-1] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [picUpload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)

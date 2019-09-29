@@ -1,0 +1,122 @@
+2019-09-12 09:53:36:651 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 8572 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 09:53:36:659 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-12 09:53:38:327 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 09:53:38:332 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 09:53:38:371 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces. 
+2019-09-12 09:53:39:195 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45fa9b75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 09:53:40:252 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 09:53:40:288 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 09:53:40:325 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 09:53:40:326 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 09:53:40:790 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 09:53:40:791 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 3987 ms 
+2019-09-12 09:53:41:998 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 09:53:43:134 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 09:53:43:199 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 09:53:43:209 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 7.799 seconds (JVM running for 9.134) 
+2019-09-12 09:54:23:188 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-12 09:54:23:191 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-12 09:54:23:209 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 17 ms 
+2019-09-12 09:54:23:264 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService home 30 - 欢迎您，打开steelgt网站的首页 
+2019-09-12 10:02:03:264 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 7888 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 10:02:03:281 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-12 10:02:05:270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 10:02:05:278 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 10:02:05:332 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces. 
+2019-09-12 10:02:06:169 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10a2a0c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 10:02:07:208 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 10:02:07:243 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:02:07:285 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 10:02:07:286 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 10:02:07:767 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 10:02:07:768 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4283 ms 
+2019-09-12 10:02:09:022 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 10:02:10:186 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:02:10:258 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 10:02:10:266 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 8.189 seconds (JVM running for 9.644) 
+2019-09-12 10:09:46:187 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 9508 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 10:09:46:199 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-12 10:09:48:953 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 10:09:48:959 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 10:09:49:013 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces. 
+2019-09-12 10:09:50:002 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c422c545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 10:09:51:044 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 10:09:51:078 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:09:51:121 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 10:09:51:123 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 10:09:51:546 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 10:09:51:547 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5085 ms 
+2019-09-12 10:09:52:811 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 10:09:53:932 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:09:54:011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 10:09:54:019 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 9.451 seconds (JVM running for 10.957) 
+2019-09-12 10:10:02:343 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-12 10:10:02:344 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-12 10:10:02:358 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 14 ms 
+2019-09-12 10:10:02:423 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService home 30 - 欢迎您，打开steelgt网站的首页 
+2019-09-12 10:14:59:339 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 6712 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 10:14:59:377 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-12 10:15:01:176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 10:15:01:183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 10:15:01:240 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces. 
+2019-09-12 10:15:02:060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0d8907a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 10:15:03:223 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 10:15:03:260 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:15:03:290 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 10:15:03:292 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 10:15:03:741 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 10:15:03:742 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4216 ms 
+2019-09-12 10:15:04:845 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 10:15:05:840 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:15:05:947 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 10:15:05:960 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 7.849 seconds (JVM running for 9.159) 
+2019-09-12 10:15:12:916 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-12 10:15:12:917 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-12 10:15:12:945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 27 ms 
+2019-09-12 10:15:13:014 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService home 30 - 欢迎您，打开steelgt网站的首页 
+2019-09-12 10:30:19:009 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 10784 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 10:30:19:025 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-12 10:30:20:744 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 10:30:20:748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 10:30:20:794 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces. 
+2019-09-12 10:30:21:590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fa3a1aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 10:30:22:606 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 10:30:22:647 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:30:22:678 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 10:30:22:678 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 10:30:23:147 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 10:30:23:147 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 3950 ms 
+2019-09-12 10:30:24:256 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 10:30:25:272 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:30:25:359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 10:30:25:359 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 7.707 seconds (JVM running for 9.129) 
+2019-09-12 10:33:12:157 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-12 10:33:12:157 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-12 10:33:12:193 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 36 ms 
+2019-09-12 10:33:12:231 [http-nio-8080-exec-2] INFO  c.steelgt.gavin.service.CityService getAll 23 - 以下查询所有城市信息。。。 
+2019-09-12 10:33:12:278 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource getConnection 110 - HikariPool-1 - Starting... 
+2019-09-12 10:33:13:168 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource getConnection 123 - HikariPool-1 - Start completed. 
+2019-09-12 10:33:13:325 [http-nio-8080-exec-2] INFO  c.s.gavin.controller.CityController getUserList 31 - 查询城市信息，共有3个城市 
+2019-09-12 10:36:25:227 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting SteelgtWebApplication on DESKTOP-UTJOI6G with PID 3496 (D:\eclipse-workspace\SteelgtWeb\target\classes started by zaj in D:\eclipse-workspace\SteelgtWeb) 
+2019-09-12 10:36:25:227 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 652 - The following profiles are active: dev 
+2019-09-12 10:36:26:945 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected 244 - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-09-12 10:36:26:963 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 126 - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-09-12 10:36:27:010 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn 182 - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces. 
+2019-09-12 10:36:27:775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e98afbd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-09-12 10:36:28:807 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-12 10:36:28:853 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:36:28:884 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-12 10:36:28:884 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-12 10:36:29:353 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-12 10:36:29:353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 3970 ms 
+2019-09-12 10:36:30:509 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-12 10:36:31:537 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-12 10:36:31:608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-12 10:36:31:624 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started SteelgtWebApplication in 7.677 seconds (JVM running for 9.017) 
+2019-09-12 10:36:38:384 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-12 10:36:38:384 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-12 10:36:38:402 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 18 ms 
+2019-09-12 10:36:38:449 [http-nio-8080-exec-1] INFO  c.steelgt.gavin.service.CityService getAll 23 - 以下查询所有城市信息。。。 
+2019-09-12 10:36:38:495 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 110 - HikariPool-1 - Starting... 
+2019-09-12 10:36:39:277 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource getConnection 123 - HikariPool-1 - Start completed. 
+2019-09-12 10:36:39:449 [http-nio-8080-exec-1] INFO  c.s.gavin.controller.CityController getUserList 31 - 查询城市信息，共有3个城市 

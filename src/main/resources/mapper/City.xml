@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.steelgt.gavin.dao.ICityDao">
+	<select id="getAll" resultType="com.steelgt.gavin.po.City">
+		select id,city_name,city_code
+		from city order by id desc
+	</select>
+
+</mapper>
